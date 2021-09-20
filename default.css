@@ -2,9 +2,13 @@
 You must style your paragraphs to use Helvetica point 10 font.
 You must style your image to have a solid border, and set it to the left of your self-summary. */
 
+body {
+    font-size: 18px;
+}
+
 p {
-    font-style: helvetica;
-    font-size: 10;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
 }
 
 img  {
@@ -21,4 +25,12 @@ img  {
     float: right;
     margin: 50px;
     text-align: center;
+}
+
+h1, h2 {
+color: #003366;
+}
+
+h2 {
+    font-size: 1.7em;
 }
