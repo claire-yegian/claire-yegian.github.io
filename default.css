@@ -1,0 +1,24 @@
+/* At least 2 element selectors and 1 class selector
+You must style your paragraphs to use Helvetica point 10 font.
+You must style your image to have a solid border, and set it to the left of your self-summary. */
+
+p {
+    font-style: helvetica;
+    font-size: 10;
+}
+
+img  {
+    border: 50px solid #B2D6FF;
+}
+
+.photo {
+    width: border-box;
+    float: left;
+}
+
+.text {
+    width: 600px;
+    float: right;
+    margin: 50px;
+    text-align: center;
+}
