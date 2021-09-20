@@ -1,12 +1,4 @@
-/* At least 2 element selectors and 1 class selector
-You must style your paragraphs to use Helvetica point 10 font.
-You must style your image to have a solid border, and set it to the left of your self-summary. */
-
-body {
-    font-size: 18px;
-}
-
-p {
+p, ul {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 10px;
 }
@@ -27,10 +19,27 @@ img  {
     text-align: center;
 }
 
-h1, h2 {
-color: #003366;
+.divider {
+    border: 1px solid #000000;
+    margin: 50px;
 }
 
-h2 {
-    font-size: 1.7em;
+.heading {
+    text-align: center;
+}
+
+h1, h2 {
+color: #245280;
+}
+
+h3 {
+    margin: 50px 0px 15px 0px;
+}
+
+h4, h6 {
+    margin: 0px;
+}
+
+.techproj h6 {
+    margin: 20px 0px 0px 0px;
 }
