@@ -1,6 +1,6 @@
 p, ul {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 10px;
+    font-size: 10pt;
 }
 
 img  {
@@ -13,7 +13,7 @@ img  {
 }
 
 .text {
-    width: 600px;
+    width: 500px;
     float: right;
     margin: 50px;
     text-align: center;
@@ -29,7 +29,7 @@ img  {
 }
 
 h1, h2 {
-color: #245280;
+    color: #245280;
 }
 
 h3 {
